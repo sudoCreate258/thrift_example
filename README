@@ -1,0 +1,18 @@
+#0 First install tools (bear)
+chmod +x install.sh
+./install.sh
+
+#1 Generate thrift code
+thrift --gen_py scoreboard.thrift
+
+#2 Start server
+chmod +x server.py
+./server.py
+
+#3 Start client
+./run_client
+
+#4 How to interact with server as client [Enter]
+<Name> <email>@sunydutchess.edu
+
+#5 Expect output on server
