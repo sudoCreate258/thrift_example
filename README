@@ -3,7 +3,7 @@ chmod +x install.sh
 ./install.sh
 
 #1 Generate thrift code
-thrift --gen_py scoreboard.thrift
+thrift --gen py scoreboard.thrift
 
 #2 Start server
 chmod +x server.py
