@@ -1,7 +1,5 @@
 # Download Apache Thrift
-sudo apt install git
-sudo apt install libtool
-sudo apt install cmake
+sudo apt install git libtool cmake flex bison
 git clone https://github.com/apache/thrift.git
 cd thrift
 ./bootstrap.sh
